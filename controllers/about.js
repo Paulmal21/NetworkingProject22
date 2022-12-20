@@ -6,7 +6,7 @@ const about = {
   index(request, response) {
     logger.info("about rendering");
     const viewData = {
-      title: "About Template 1",
+      title: "About Energy Mate",
     };
     response.render("about", viewData);
   },

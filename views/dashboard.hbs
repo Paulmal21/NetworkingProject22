@@ -1,5 +1,29 @@
 {{> menu id="dashboard"}}
 
-<section class="ui segment">
-  {{> mainpanel}}
-</section>
+{{#each property}}
+  <section class="ui segment">
+    <h2 class="ui header">
+      {{property}}
+    </h2>
+    <table class="ui table">
+      <thead>
+        <tr>
+          <th>Appliance</th>
+          <th>Usage ( W/hr )</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each readings}}
+          <tr>
+            <td>
+              {{appliance}}
+            </td>
+            <td>
+              {{usage}}
+            </td>
+          </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </section>
+{{/each}}
