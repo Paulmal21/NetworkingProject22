@@ -1,0 +1,83 @@
+{
+  "propertyCollection": [
+    {
+      "id": "01",
+      "property": "Westgate Park",
+      "eircode": "Y73T9I0",
+      "readings": [
+        {
+          "id": "03",
+          "appliance": "Playstation 5",
+          "usage": 200,
+          "duration": 60,
+          "rate": 46.23
+        },
+        {
+          "id": "04",
+          "appliance": "Smart Light",
+          "usage": 8,
+          "duration": 30,
+          "rate": 46.23
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "property": "Main Street",
+      "eircode": "Y63T5R4",
+      "readings": [
+        {
+          "id": "05",
+          "appliance": "Smart TV",
+          "usage": 265,
+          "duration": 120,
+          "rate": 46.23
+        },
+        {
+          "id": "06",
+          "appliance": "Smart Light",
+          "usage": 8,
+          "duration": 120,
+          "rate": 46.23
+        }
+      ]
+    }
+  ],
+  "propertyList": [
+    {
+      "id": "dddce2b0-80b5-11ed-9453-5de639232d1b",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "address": "Springfield",
+      "readings": [
+        {
+          "id": "3f0baf80-80c0-11ed-a412-ff997e9f1296",
+          "appliance": "",
+          "usage": "",
+          "duration": "3",
+          "rate": "0.4327"
+        },
+        {
+          "id": "38c38fd0-80c0-11ed-a412-ff997e9f1296",
+          "appliance": "",
+          "usage": "",
+          "duration": "3",
+          "rate": "0.4327"
+        },
+        {
+          "id": "e3944f90-80bf-11ed-ae3b-bdbea02671e4",
+          "appliance": "",
+          "usage": "",
+          "duration": "2",
+          "rate": "0.4327"
+        },
+        {
+          "id": "af880f50-80bc-11ed-a4ef-c7801d56b953",
+          "appliance": "ps5",
+          "usage": "199",
+          "duration": "61",
+          "rate": "0.4327"
+        }
+      ]
+    }
+  ]
+}

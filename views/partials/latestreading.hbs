@@ -1,0 +1,108 @@
+<section class="ui segment">
+
+
+  <div class="ui equal width padded grid container">
+
+    <div class="white column">
+      <div class="row">
+        <div class="rowTitle">
+          <h2 class><font size="4">
+            {{property.address}}<br></font></h2>
+          <div class="row">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="one wide white column">
+      <h2 class>
+        <i class="map marked alternate large purple icon"></i></h2>
+    </div>
+
+
+    <div class="black column">
+      <div class="row">
+        <div class="rowTitle">
+          <h2 class><font size="4">
+            Weather <br></font></h2>
+          <div class="row">
+            <div class="row1">
+              {{property.readings.[0].appliance}}
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--${latestReading.appliance}-->
+
+    </div>
+
+    <div class="one wide black column">
+      <h2 class>
+        <i class="sun large orange icon"></i>
+
+        <br></h2>
+    </div>
+
+
+    <div class="one wide white column"></div>
+
+
+    <div class="black column">
+      <div class="row">
+        <div class="rowTitle">
+          <h2 class><font size="3">
+            Usage <br></font></h2>
+          {{property.readings.[0].usage}} C<br>
+
+
+
+          <div class="row">
+            <div class="col align-self-center">
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="one wide black column">
+      <h2 class>
+        <i class="temperature low large blue icon"></i> <br></h2>
+
+
+          </div>
+
+    <div class="one wide white column"></div>
+
+    <div class="black column">
+      <div class="row">
+        <div class="rowTitle">
+          <h2 class><font size="4">
+            Wind <br></font></h2>
+          <div class="row">
+            <div class="row1">
+              {{property.readings.[0].duration}} Mins <br>
+              <br>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="one wide black column">
+      <h2 class>
+        <i class="wind large green icon"></i></h2>
+    </div>
+
+    <div class="one wide white column"></div>
+
+
+  </div>
+</section>

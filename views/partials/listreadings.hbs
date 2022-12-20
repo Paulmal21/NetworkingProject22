@@ -2,7 +2,12 @@
   <thead>
     <tr>
       <th>Appliance</th>
-      <th>Usage ( W/hr )</th>
+      <th>Usage</th>
+      <th>Duration</th>
+      <th>Cost per Hour</th>
+      <th>Total Cost</th>
+      <th></th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
@@ -14,7 +19,26 @@
         <td>
           {{usage}}
         </td>
+        <td>
+          {{duration}}
+        </td>
+        <td>
+          {{rate}}
+        </td>
+        <td>
+          {{cost}}
+        </td>
+
+        <td>
+          <a href="/reading/{{../property.id}}/editreading/{{id}}" class="ui icon button">
+            <i class="blue pencil alternate icon"></i>
+          </a>
+        </td>
+        <td>
+          <a href="/property/{{../property.id}}/deletereading/{{id}}" class="ui red icon button">
+            <i class="icon trash"></i></a>
+        </td>
       </tr>
     {{/each}}
-  </tbody>
+</tbody>
 </table>

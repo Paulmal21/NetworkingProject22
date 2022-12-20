@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bda0ad07-2514-4927-aa34-7ec94805e64d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/views/partials/latestreading.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/station-hub.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/station-hub.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/station.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/station.hbs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29heC4stdS6jNlmZMAauXl0h7Xo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/dev/weathertop 1 (done)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bda0ad07-2514-4927-aa34-7ec94805e64d" name="Changes" comment="" />
+      <created>1653569613515</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653569613515</updated>
+      <workItem from="1653569614738" duration="9314000" />
+      <workItem from="1653656492607" duration="10829000" />
+      <workItem from="1653735227597" duration="25898000" />
+      <workItem from="1653818641148" duration="33129000" />
+      <workItem from="1653859567553" duration="352000" />
+      <workItem from="1653863402803" duration="1877000" />
+      <workItem from="1654596862893" duration="977000" />
+      <workItem from="1662459596831" duration="79000" />
+      <workItem from="1662643967669" duration="3463000" />
+      <workItem from="1662755594457" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
