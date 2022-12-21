@@ -50,32 +50,36 @@
       "address": "Springfield",
       "readings": [
         {
-          "id": "3f0baf80-80c0-11ed-a412-ff997e9f1296",
-          "appliance": "",
-          "usage": "",
-          "duration": "3",
-          "rate": "0.4327"
+          "id": "e4cab1a0-814c-11ed-93f2-0b467f36be8e",
+          "appliance": "Incandescent Bulb",
+          "usage": "60",
+          "duration": 30,
+          "rate": "0.4327",
+          "cost": 0.012981
         },
         {
-          "id": "38c38fd0-80c0-11ed-a412-ff997e9f1296",
-          "appliance": "",
-          "usage": "",
-          "duration": "3",
-          "rate": "0.4327"
+          "id": "ad44ac90-814c-11ed-93f2-0b467f36be8e",
+          "appliance": "LED Lightbulb",
+          "usage": "8",
+          "duration": 30,
+          "rate": "0.4327",
+          "cost": 0.0017308
         },
         {
-          "id": "e3944f90-80bf-11ed-ae3b-bdbea02671e4",
-          "appliance": "",
-          "usage": "",
-          "duration": "2",
-          "rate": "0.4327"
+          "id": "942cfce0-814b-11ed-bce0-253ca5297fd0",
+          "appliance": "Fridge",
+          "usage": "225",
+          "duration": 1440,
+          "rate": "0.4327",
+          "cost": 2.33658
         },
         {
-          "id": "af880f50-80bc-11ed-a4ef-c7801d56b953",
+          "id": "e70bb2e0-814a-11ed-bce0-253ca5297fd0",
           "appliance": "ps5",
-          "usage": "199",
-          "duration": "61",
-          "rate": "0.4327"
+          "usage": "200",
+          "duration": 60,
+          "rate": "0.4327",
+          "cost": 0.08654
         }
       ]
     }

@@ -26,9 +26,9 @@ const reading = {
     const newReading = {
       appliance: request.body.appliance,
       usage: request.body.usage,
-      duration: request.body.duration,
+      duration: request.body.duration/60,
       rate: request.body.rate,
-      cost: 5,
+      cost: request.body.usage/1000*request.body.duration/60/60*request.body.rate,
     };
     logger.debug(`Updating Reading ${readingId} from Property ${propertyId}`);
     propertyHub.updateReading(reading, newReading);
